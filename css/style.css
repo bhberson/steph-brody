@@ -1,0 +1,326 @@
+/*
+ * Author: Brody Berson
+ * URL: http://www.brodyberson.com
+ *
+ * Project Name: Lauren & Ryan
+ * Version: 1.0
+ * Date: 04-01-2016
+ *
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+html, body {
+	font: 400 14px/20px "Open Sans", Georgia, "Times New Roman", Times, serif;
+	letter-spacing: 0.04em;
+	-webkit-text-size-adjust: none;
+	width: 100%;
+}
+
+a {
+	outline: none;
+}
+
+a img {
+	border: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+  opacity: .7;
+}
+
+h1 {
+	font: 700 55px/55px "Open Sans Condensed", sans-serif;
+	color: #FFF;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+
+h2 {
+	font: 400 25px/25px "Open Sans Condensed", sans-serif;
+	color: #FFF;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+h3 {
+	font: 700 22px/22px "Open Sans Condensed", sans-serif;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+
+h4 {
+	font: 400 16px/16px "Open Sans Condensed", sans-serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+section {
+	position: relative;
+}
+
+section p {
+	padding: 0 0 15px 0;	
+}
+
+.centered {
+	text-align: center
+}
+
+/*********************************************************************************************
+
+x. Themes
+
+*********************************************************************************************/
+.gold {
+	background-color: #D4AF37;
+	border-bottom: 1px solid #a27e08;
+	border-top: 1px solid #a27e08;
+}
+
+.gold h3 {
+	color: #695102;
+}
+
+.gold h4 {
+	color: #a27e08;
+}
+
+.gold p {
+	color: #695102;
+}
+
+.blue {
+	background-color: #43ABBF;
+	border-bottom: 1px solid #0488A1;
+	border-top: 1px solid #0488A1;
+}
+
+.blue h3 {
+	color: #036577;
+}
+
+.blue h4 {
+	color: #0488A1;
+}
+
+.blue p {
+	color: #036577;
+}
+
+.coral {
+	background-color: #ff9796;
+	border-bottom: 1px solid #9e595a;
+	border-top: 1px solid #9e595a;
+}
+
+.coral h3 {
+	color: #8a4d4e;
+}
+
+.coral h4 {
+	color: #9e595a;
+}
+
+.coral p {
+	color: #a85e5f;
+}
+
+.dark-grey {
+	background: #999;	
+	border-bottom: 1px solid #666;
+	border-top: 1px solid #666;
+}
+
+.dark-grey h3 {
+	color: #fff;
+}
+
+.dark-grey h4 {
+	color: #eee;
+}
+
+.dark-grey p, .dark-grey a {
+	color: #ddd;
+}
+
+.grey {
+	background-color: #f1f0ee;
+}
+
+.grey h3 {
+	color: #7a7a7a;
+}
+
+.grey h4 {
+	color: #8f8f8f;
+}
+
+.grey p {
+	color: #999;
+}
+
+.gold {
+	background-color: #d6c6af;
+}
+
+.gold h3, .gold h4, .gold p {
+	color: #998565;
+}
+/*********************************************************************************************
+
+x. Home
+
+*********************************************************************************************/
+#home {
+	width: auto; height: 600px;
+	background: url(../img/bg.jpg) bottom center no-repeat #999;
+}
+
+#home .row {
+	padding-top: 150px; 
+	margin: 0 auto;
+}
+
+#the-couple, #gift-registry, #wedding-events, #directions, #wedding-party, #did-you-know, #social-feed, #rsvp {
+	padding: 10%;
+}
+/*********************************************************************************************
+
+x. The Couple
+
+*********************************************************************************************/
+
+#him {
+	float: right;
+}
+
+#him h3, #him h4 {
+	text-align: left;
+}
+
+#her {
+	text-align: right;
+	float: left;
+}
+
+#her h3, #her h4 {
+	text-align: right;
+}
+
+/*********************************************************************************************
+
+x. Wedding Events
+
+*********************************************************************************************/
+#accommodations, #ceremony, #cocktails, #reception { 
+	text-align: center;
+}
+
+/*********************************************************************************************
+
+x. Wedding Party
+
+*********************************************************************************************/
+#wedding-party .bridesmaid, #wedding-party .groomsman {
+	padding: 20px 0 5px 0;
+	float: left;
+}
+#wedding-party .bridesmaid p, #wedding-party .groomsman p {
+    text-align: center;
+}
+
+#wedding-party .content {
+	padding: 0 20px;
+}
+
+#wedding-party .content img {
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+	display: block;
+}
+
+#wedding-party h3 {
+	padding: 35px 0 10px 0;
+}
+
+#wedding-party h4 {
+	padding: 0 0 10px 0;
+}
+
+.maidofhonor, .bestman {
+	border-radius: .75em;
+}
+
+/*********************************************************************************************
+
+x. Gift Registry
+
+*********************************************************************************************/
+
+/*********************************************************************************************
+
+x. Photo Gallery
+
+*********************************************************************************************/
+#photo-gallery {
+	width: auto; height: 600px;
+}
+
+#photo-gallery ul {
+	width: 100%; height: 600px;
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+}
+
+#photo-gallery li {
+	width: 100%; height: 600px;
+}
+
+#photo-gallery img {
+	margin: 0 0 0 -640px;
+	position: absolute;
+	top: 0; left: 50%;
+}
+
+/*********************************************************************************************
+
+x. Map
+
+*********************************************************************************************/
+#map {
+    height: 500px;
+}
+
+/*********************************************************************************************
+
+x. Footer
+
+*********************************************************************************************/
+footer {
+	background: #FFF;
+	padding: 20px 0 5px 0;
+}
+
+footer a {
+	color: #999;
+}
+
+footer a:hover {
+	color: #666;
+}
+
+footer p {
+	font: 400 12px/20px "Open Sans Condensed", serif;
+	text-align: center;
+}
