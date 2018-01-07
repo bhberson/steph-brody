@@ -100,21 +100,25 @@ x. Themes
 }
 
 .blue {
-	background-color: #43ABBF;
-	border-bottom: 1px solid #0488A1;
-	border-top: 1px solid #0488A1;
+	background-color: #8fa9b3;
+	border-bottom: 1px solid #8097a1;
+	border-top: 1px solid #8097a1;
 }
 
 .blue h3 {
-	color: #036577;
+	color: #586c79;
 }
 
 .blue h4 {
-	color: #0488A1;
+	color: #6e7f8a;
 }
 
 .blue p {
-	color: #036577;
+	color: #586c79;
+}
+
+.blue a {
+	color: #d6dee2;
 }
 
 .coral {
@@ -183,7 +187,7 @@ x. Home
 *********************************************************************************************/
 #home {
 	width: auto; height: 600px;
-	background: url(../img/bg.jpg) bottom center no-repeat #999;
+	background: url(../img/bg.jpg) bottom center no-repeat #8097a1;
 }
 
 #home .row {
