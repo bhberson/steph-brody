@@ -26,8 +26,8 @@ function initMap() {
     var customMapTypeId = 'custom_style';
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 14,
-      center: {lat: 42.9810893, lng: -85.6748615},
+      zoom: 12,
+      center: {lat: 43, lng: -85.6748615},
       scrollwheel:  false,
       mapTypeControlOptions: {
         mapTypeIds: [google.maps.MapTypeId.ROADMAP, customMapTypeId]
@@ -75,6 +75,31 @@ function initMap() {
        });
        hotelMarker.addListener('click', function() {
          hotelInfoWindow.open(map, hotelMarker);
+       });
+    
+    var hotel2ContentString = '<div id="content">'+
+       '<div id="siteNotice">'+
+       '</div>'+
+       '<h4>Comfort Suites Grand Rapids North</h4>'+
+       '<div id="bodyContent">'+
+       '<p>Accomadations at 350 Dodge Street, Comstock Park, MI.</p>'+
+       '<a target="_blank" href="https://goo.gl/maps/aH6Pi981nD92">'+
+       'Directions</a> '+
+       '</div>'+
+       '</div>';
+
+       var hotel2InfoWindow = new google.maps.InfoWindow({
+         content: hotel2ContentString
+       });
+       var hotel2Position = {lat: 43.04622, lng: -85.66075};
+
+       var hotel2Marker = new google.maps.Marker({
+         position: hotel2Position,
+         map: map,
+         title: 'Comfort Suites - GR North'
+       });
+       hotel2Marker.addListener('click', function() {
+         hotel2InfoWindow.open(map, hotel2Marker);
        });
     
     var barContentString = '<div id="content">'+
