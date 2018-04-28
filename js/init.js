@@ -57,7 +57,7 @@ function initMap() {
        '</div>'+
        '<h4>Homewood Suites by Hilton Grand Rapids Downtown</h4>'+
        '<div id="bodyContent">'+
-       '<p>Accomadations at 161 Ottawa Ave NW, Grand Rapids, MI.</p>'+
+       '<p>Accomadations at 161 Ottawa Ave NW, Grand Rapids, MI. The block rates expire on June 27th.</p>'+
        '<a target="_blank" href="https://goo.gl/maps/8Zj7Dv3SBjr">'+
        'Directions</a> '+
        '</div>'+
@@ -82,7 +82,7 @@ function initMap() {
        '</div>'+
        '<h4>Comfort Suites Grand Rapids North</h4>'+
        '<div id="bodyContent">'+
-       '<p>Accomadations at 350 Dodge Street, Comstock Park, MI.</p>'+
+       '<p>Accomadations at 350 Dodge Street, Comstock Park, MI. The block rates expire on June 27th.</p>'+
        '<a target="_blank" href="https://goo.gl/maps/aH6Pi981nD92">'+
        'Directions</a> '+
        '</div>'+
